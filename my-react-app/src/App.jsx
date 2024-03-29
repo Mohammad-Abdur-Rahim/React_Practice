@@ -12,6 +12,7 @@ function App() {
       <h1 className='newcolor'>React Website Project .......</h1>
    
       <Counter></Counter>
+      <Users></Users>
      
 
     </>
