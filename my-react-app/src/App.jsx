@@ -3,6 +3,7 @@ import './App.css'
 import Posts from './Posts'
 
 
+
 function App() {
 
 
@@ -18,8 +19,9 @@ function App() {
     <li>State</li>
     <li>Load data</li>
    </ul><hr></hr>
-    <Posts></Posts>
-      
+   <Posts></Posts>
+<post></post>
+    
      
 
     </>
