@@ -1,5 +1,6 @@
 
 import './App.css'
+import Test from './Test'
 
 function App() {
 
@@ -7,17 +8,11 @@ function App() {
     <>
       
       <h1 className='newcolor'>React Website Project .......</h1>
-    <Device name="Desktop" price="90000" ></Device>
-    <Device name="Mobile" price="40000" ></Device>
-    <Device name="Tablet" price="20000" ></Device>
-    <Device name="Watch" price="10000" ></Device>
+      <Test test1='React' isDone={true}></Test>
+      <Test test1='Node JS ' isDone={false}></Test>
 
     </>
   )
 }
- function Device({name, price}) {
-  return (
-    <h2>Device is : {name} And Price : {price} </h2>
-  )
- }
+
 export default App
