@@ -15,9 +15,9 @@ function App() {
     </>
   )
 }
- function Device(props) {
+ function Device({name, price}) {
   return (
-    <h2>Device is : {props.name} And Price : {props.price} </h2>
+    <h2>Device is : {name} And Price : {price} </h2>
   )
  }
 export default App
