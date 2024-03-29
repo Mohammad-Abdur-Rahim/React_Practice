@@ -3,13 +3,10 @@ import { useState } from "react"
 export default function Counter(){
     const [count,setcount]=useState(0);
     const handleAdd =()=>{
-        const newcount =count+1;
-        setcount(newcount)
+        setcount(count+1)
     }
     const handleRemove =()=>{
-
-        const newcount =count-1;
-        setcount(newcount)
+        setcount(count-1)
     }
     return(
         <div>
