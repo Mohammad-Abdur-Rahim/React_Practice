@@ -1,8 +1,7 @@
 
 import './App.css'
-import Counter from './Counter';
-import Users from './Users';
-import Friends from './Friends';
+import Posts from './Posts'
+
 
 function App() {
 
@@ -10,11 +9,17 @@ function App() {
   return (
     <>
       
-      <h1 className='newcolor'>React Website Project .......</h1>
-   
-      <Counter></Counter>
-      <Users></Users>
-      <Friends></Friends>
+      <h1 className='newcolor'>React Core Concept Recap.......</h1>
+   <ul>
+    <li>Component</li>
+    <li>jsx</li>
+    <li>Props</li>
+    <li>Event Handaler</li>
+    <li>State</li>
+    <li>Load data</li>
+   </ul><hr></hr>
+    <Posts></Posts>
+      
      
 
     </>
