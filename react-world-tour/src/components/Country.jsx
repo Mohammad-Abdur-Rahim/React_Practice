@@ -17,7 +17,7 @@ const Country = ({country,handleFlag}) => {
             <button onClick={handleVisited}>Visited</button>
             <button onClick={()=>handleFlag(country.flags.png)}>Add Flag</button>
             {
-                visited?" visited Done":" Pending"
+                visited?" visited Done":" Pendings"
             }
         </div>
     );
