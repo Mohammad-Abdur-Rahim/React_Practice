@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
+import Bottle from "../Bottle/Bottle";
 
 const Bottoles = () => {
 const [bottles,setBottles]=useState([]);
@@ -12,6 +13,9 @@ fetch('Bottles.json')
     return (
         <div>
             <h1>Bootles Here : {bottles.length}</h1>
+            {
+                bottles.map(bottle =><Bottle key={bottle.id} bottle={bottle}></Bottle>)
+            }
         </div>
     );
 };
