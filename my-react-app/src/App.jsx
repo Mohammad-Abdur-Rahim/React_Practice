@@ -4,6 +4,7 @@ import Posts from './Posts'
 
 
 
+
 function App() {
 
 
@@ -20,7 +21,7 @@ function App() {
     <li>Load data</li>
    </ul><hr></hr>
    <Posts></Posts>
-<post></post>
+  
     
      
 
